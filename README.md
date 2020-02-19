@@ -5,7 +5,7 @@
 
 Vue component to wrap content in Collapsible element with trigger to open and close.
 
-![Alt text](src/assets/collapsible.gif)
+![Alt text](https://github.com/glennflanagan/vue-collapsible/raw/master/src/assets/collapsible.gif)
 
 It's like an accordion, but where any number of sections can be open at the same time.
 

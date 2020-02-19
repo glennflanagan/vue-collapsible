@@ -201,6 +201,10 @@ export default {
   border: 0;
 }
 
+.example-collapsible .Collapsible__trigger.Collapsible__trigger--open svg {
+  transform: rotate(0.5turn);
+}
+
 .customTrigger {
   display: grid;
   grid-template-columns: auto 20px;

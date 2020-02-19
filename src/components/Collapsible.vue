@@ -158,8 +158,4 @@ export default {
   width: 100%;
   cursor: pointer;
 }
-
-.Collapsible__trigger.Collapsible__trigger--open svg {
-  transform: rotate(0.5turn);
-}
 </style>

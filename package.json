@@ -1,11 +1,30 @@
 {
-  "name": "vue-collapsible",
+  "name": "vue-collapsible-component",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Vue component to wrap content in Collapsible element with trigger to open and close.",
+  "keywords": [
+    "vue-component",
+    "vue",
+    "collapse",
+    "collapsible",
+    "accordion"
+  ],
+  "files": [
+    "lib/*.js",
+    "lib/*.js.map",
+    "lib/*.css",
+    "src/components/Collapsible.vue",
+    "*.json",
+    "*.md"
+  ],
+  "main": "lib/vue-collapsible.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:lib": "vue-cli-service build --target lib --name vue-collapsible src/components/Collapsible.vue --dest lib",
+    "prepare": "npm run build:lib"
   },
   "dependencies": {
     "core-js": "^3.6.4",

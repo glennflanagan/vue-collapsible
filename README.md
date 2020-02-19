@@ -2,7 +2,27 @@
 
 # Vue Responsive Collapsible Section Component (Collapsible)
 
+Vue component to wrap content in Collapsible element with trigger to open and close.
+
 ![Alt text](src/assets/collapsible.gif)
+
+It's like an accordion, but where any number of sections can be open at the same time.
+
+## Installation
+
+Install via npm
+
+```
+npm install vue-collapsible-component
+```
+
+or yarn
+
+```
+yarn add vue-collapsible-component
+```
+
+Alternatively just download the `Collapsible.vue` file form the `src` folder and include it in your project in your chosen way.
 
 ## Licence
 

@@ -61,11 +61,11 @@ export default {
   props: {
     openLabel: {
       type: String,
-      default: 'Open me',
+      default: 'Close me',
     },
     closedLabel: {
       type: String,
-      default: 'Close me',
+      default: 'Open me',
     },
     transitionDuration: {
       type: String,
@@ -90,15 +90,8 @@ export default {
   },
   methods: {
     handleClick() {
-      // this.transitioning = true;
-      // this.height = this.$refs.inner.scrollHeight + 'px';
       this.onCollapse(!this.isOpen);
       this.open = !this.open;
-      // if (this.open) {
-      //   this.closeOnNextTick = true;
-      //   this.open = false;
-      // } else {
-      // }
     },
     handleEnd() {
       if (this.height !== '0px') {

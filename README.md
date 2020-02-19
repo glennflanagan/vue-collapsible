@@ -1,5 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/10d9afa3-016a-4707-9dcc-970a4e4a3ba9/deploy-status)](https://app.netlify.com/sites/vue-collapsible/deploys)
-[![Npm Version](https://img.shields.io/npm/v/vue-collapsible-component.svg?style=flat-square)](https://www.npmjs.com/package/vue-collapsible-component) [![License](https://img.shields.io/npm/l/vue-collapsible-component.svg?style=flat-square)](https://github.com/glennflanagan/vue-collapsible/blob/master/LICENSE.md) [![Downloads Per Week](https://img.shields.io/npm/dw/vue-collapsible-component.svg?style=flat-square)](https://npmcharts.com/compare/vue-collapsible-component)
+[![Npm Version](https://img.shields.io/npm/v/vue-collapsible-component.svg)](https://www.npmjs.com/package/vue-collapsible-component) [![License](https://img.shields.io/npm/l/vue-collapsible-component.svg)](https://github.com/glennflanagan/vue-collapsible/blob/master/LICENSE.md) [![Downloads Per Week](https://img.shields.io/npm/dw/vue-collapsible-component.svg)](https://npmcharts.com/compare/vue-collapsible-component)
 
 # Vue Responsive Collapsible Section Component (Collapsible)
 

@@ -1,24 +1,11 @@
-# vue-collapsible
+# Vue Responsive Collapsible Section Component (Collapsible)
 
-## Project setup
-```
-npm install
-```
+![Alt text](src/assets/collapsible.gif)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Licence
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[MIT](LICENCE.md)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Contributing
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+View the the [README](CONTRIBUTING.md)

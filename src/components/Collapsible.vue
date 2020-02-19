@@ -10,16 +10,16 @@
       }"
     >
       <slot name="trigger" v-if="open">
-        <span class="Collapsible__triggerLabel">{{ !open ? closedLabel : openLabel }}</span>
+        <span class="Collapsible__triggerLabel">
+          {{ !open ? closedLabel : openLabel }}
+        </span>
       </slot>
 
       <slot name="closedTrigger" v-if="!open">
         <slot name="trigger">
-          <span class="Collapsible__triggerLabel">
-            {{
+          <span class="Collapsible__triggerLabel">{{
             !open ? closedLabel : openLabel
-            }}
-          </span>
+          }}</span>
         </slot>
       </slot>
     </button>

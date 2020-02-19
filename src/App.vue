@@ -90,7 +90,9 @@
       </div>
     </Collapsible>
 
-    <button @click="collapsibleIsOpen = !collapsibleIsOpen">Trigger collapsible prgramatically</button>
+    <button @click="collapsibleIsOpen = !collapsibleIsOpen">
+      Trigger collapsible programatically
+    </button>
 
     <Collapsible
       class="example-collapsible"
@@ -202,6 +204,7 @@ export default {
 .customTrigger {
   display: grid;
   grid-template-columns: auto 20px;
+  align-items: center;
 }
 
 .customTrigger svg {

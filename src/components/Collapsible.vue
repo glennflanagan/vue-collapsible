@@ -1,7 +1,8 @@
 <template>
   <div class="Collapsible">
     <button
-      @click="handleClick"
+      @click.prevent="handleClick"
+      type="button"
       :class="{
         Collapsible__trigger: true,
         'Collapsible__trigger--open': !transitioning && open,
